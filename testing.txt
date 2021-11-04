@@ -1,0 +1,3 @@
+This is a unit test for a flight reservation
+Test that when a seat is booked it is reserved to the customer.
+Test that seat no longer exists once reserved
