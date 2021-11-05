@@ -1,3 +1,10 @@
-This is a unit test for a flight reservation
-Test that when a seat is booked it is reserved to the customer.
-Test that seat no longer exists once reserved
+This is a unit test for the seat "module" on a flight reservation system
+Test all seats are available
+Test when a seat is taken it is no longer available
+Test if a seat is unselected then it becomes avaialble for selection again
+
+Integration test for web front end to reservation module on a flight reservation system
+Test the web front end communicates with the seats module
+Test when a seat is selected at the front end it is allocated to the individual
+Test after a seat is allocated that it is no longer available for selection by others
+Test a customer can change seats
