@@ -14,3 +14,8 @@ his selected seat.
 Test a customer is able to change his selected seat to another available seat.
 Test a customer cannot select a seat that is already unavailable.
 
+User acceptance test for flight reservation system
+As a customer I want to be able to access flightrservations.com & book a seat.
+Given a customer is on the flightreservations.com home page.
+When the customer selects a destination and a flight.
+Then they should be taken to the seat reservation screen.
