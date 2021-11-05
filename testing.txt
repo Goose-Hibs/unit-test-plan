@@ -1,10 +1,16 @@
 This is a unit test for the seat "module" on a flight reservation system
 Test all seats are available
 Test when a seat is taken it is no longer available
-Test if a seat is unselected then it becomes avaialble for selection again
+Test if a seat is unselected then it becomes available for selection again
 
 Integration test for web front end to reservation module on a flight reservation system
-Test the web front end communicates with the seats module
-Test when a seat is selected at the front end it is allocated to the individual
-Test after a seat is allocated that it is no longer available for selection by others
-Test a customer can change seats
+Test the web front end communicates with the seats module & returns no error message
+Test if successful the seat reservation page is displayed
+
+System test for flight reservation system
+Test when a customer enters details that the seat reservation page is displayed, the
+client can then choose the seats they wish & once complete the client will have reserved
+his selected seat.
+Test a customer is able to change his selected seat to another available seat.
+Test a customer cannot select a seat that is already unavailable.
+
